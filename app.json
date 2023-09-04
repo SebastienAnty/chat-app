@@ -15,16 +15,31 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sebasdevari.chatapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sebasdevari.chatapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0,
+      "requestHeaders": {
+        "Authorization": "1TrkhYbjXgmE9NA2UAbItWtcofQhGItW7qXDR8XP"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "299886c3-57b2-443d-8ea4-655b7a0a0f61"
+      }
     }
   }
 }
